@@ -1,0 +1,150 @@
+ body {
+     margin: 0;
+     padding: 0;
+     background-image: url(xiang-ji-AR8XAYZVB7Q-unsplash.jpg);
+     color: black;
+     font-family: sans-serif;
+     font-weight: 500;
+ }
+
+ #login-box {
+     position: relative;
+     margin: 5% auto;
+     height: 400px;
+     width: 600px;
+     background: rgba(0, 177, 255, 0.28);
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0, 6);
+
+ }
+
+ .left-box {
+     position: absolute;
+     top: 0;
+     left: 0;
+     box-sizing: border-box;
+     padding: 40px;
+     width: 300px;
+     height: 400px;
+ }
+
+ h1 {
+     margin: 0 0 20px 0;
+     color: black;
+     font-family: fantasy;
+     font-weight: 500;
+     font-size: 40px;
+ }
+
+ input[type="text"],
+ input[type="password"] {
+     display: block;
+     box-sizing: border-box;
+     margin-bottom: 20px;
+     padding: 4px;
+     width: 220px;
+     height: 32;
+     border: none;
+     outline: none;
+     border-bottom: 1px solid #aaa;
+     font-family: sans-serif;
+     font-weight: 400;
+     font-size: 15px;
+     transition: 0.2s ease;
+
+ }
+
+ .daftar {
+     text-decoration: none;
+     border: 0;
+     background: none;
+     display: block;
+     margin: 20px auto;
+     text-align: center;
+     border: 2px solid darkblue;
+     padding: 14px 10px;
+     width: 100px;
+     font-family: cursive;
+     font-size: 20px;
+     outline: none;
+     color: #030200;
+     border-radius: 10PX;
+     transition: 0.20s;
+     cursor: pointer;
+ }
+
+ .daftar:hover,
+ .daftar:focus {
+     background: #033cd8;
+     transition: 0.2s ease;
+ }
+
+ .or {
+     position: absolute;
+     top: 180px;
+     left: 665px;
+     width: 40px;
+     height: 40px;
+     background: #efefef;
+     border-radius: 50%;
+     line-height: 40px;
+     text-align: center;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+     font-family: fantasy;
+
+ }
+
+ .right-box {
+     position: absolute;
+     top: 0;
+     right: 0;
+     box-sizing: border-box;
+     padding: 40px;
+     width: 300px;
+     height: 400px;
+     background-image: url(bckg%20CMD.jpg);
+     background-size: cover;
+     background-position: center;
+
+ }
+
+ .right-box .signiwith {
+     display: block;
+     margin-bottom: 40px;
+     font-size: 30px;
+     color: #fff;
+     text-align: right;
+     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+     font-family: fantasy;
+ }
+
+ button.social {
+     margin-bottom: 20px;
+     width: 220px;
+     height: 40px;
+     border: none;
+     border-radius: 2px;
+     color: wheat;
+     font-family: sans-serif;
+     font-weight: 500;
+     transition: 0.2s ease;
+     cursor: pointer;
+ }
+
+ .facebook {
+     background: blue;
+ }
+
+ .google {
+     background: red;
+ }
+
+ .facebook:hover {
+
+     color: blue;
+     background: white;
+ }
+
+ .google:hover {
+     color: red;
+     background: white;
+ }

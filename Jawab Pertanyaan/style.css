@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    margin-bottom: 10px;
+    background-color: rgb(184, 15, 10);
+}
+
+.navbar-brand:hover {
+    color: black !important;
+}
+
+.dropdown-toggle:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(112, 2, 2);
+}
+
+.dropdown-item:hover {
+    color: white !important;
+    background-color: rgb(194, 24, 7) !important;
+}
+
+.nav-link {
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(194, 24, 7);
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: darkred !important;
+    color: white !important;
+}
+
+.btn:hover {
+    text-decoration: none !important;
+    color: white !important;
+    background-color: rgb(184, 15, 10) !important;
+}
+
+.pertanyaan h5 {
+    color: white;
+    padding-left: 5px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: rgb(112, 2, 2) !important;
+}
+
+.jawaban h5 {
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 120px;
+    background-color: rgb(112, 2, 2) !important;
+}
+
+.pertanyaan p {
+    margin-top: 20px;
+    background-color: maroon;
+    color: white;
+    width: 550px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.jawaban p {
+    margin-top: 20px;
+    background-color: maroon;
+    color: white;
+    width: 550px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.cari {
+    color: rgb(184, 15, 10) !important;
+    background-color: white !important;
+}
+
+textarea {
+    width: 560px;
+    color: white;
+    background-color: maroon !important;
+}

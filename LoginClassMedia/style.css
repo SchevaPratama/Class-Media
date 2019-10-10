@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*    font-family: cursive;*/
+    background-image: url(plush-design-studio-q10VITrVYUM-unsplash.jpg);
+    background-size: cover;
+
+}
+
+h2 {
+    color: red;
+    font-family: fantasy;
+    font-size: 300%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+h4 {
+    color: yellow;
+    font-size: 300%;
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    transform: translate(-20%, -90%);
+}
+
+.box {
+    width: 350px;
+    padding: 65px;
+    position: fixed;
+    top: 30%;
+    left: 25%;
+    transform: translate(-45%, -30%);
+    background: rgba(24, 122, 255, 0.51);
+    text-align: center;
+    border-radius: 45px;
+}
+
+.box h3 {
+    color: darkorange;
+    text-decoration: underline;
+    text-transform: full-width;
+    font-style: 400;
+    font-family: serif;
+    font-size: 200%;
+}
+
+
+
+.box input[type="text"],
+.box input[type="Password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    font-family: cursive;
+    text-align: center;
+    border: 2px solid red;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 10PX;
+    transition: 0.20s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="Password"]:focus {
+    width: 280px;
+    border-radius: 50px;
+    border-color: darkblue;
+}
+
+.box input[type="text"]:hover,
+.box input[type="Password"]:hover {
+    width: 280px;
+    border-radius: 50px;
+    border-color: darkblue;
+}
+
+.login {
+    text-decoration: none;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ff9300;
+    padding: 14px 10px;
+    width: 100px;
+    font-family: cursive;
+    font-size: 20px;
+    outline: none;
+    color: #030200;
+    border-radius: 10PX;
+    transition: 0.20s;
+    cursor: pointer;
+}
+
+.login:hover {
+    background: #ebff00;
+}
+
+img {
+    position: absolute;
+    top: 93%;
+    left: 70%;
+    transform: translate(-5%, -90%);
+
+}
+
+button.social {
+    margin-bottom: 20px;
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    color: wheat;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.facebook {
+    background: blue;
+    position: absolute;
+    top: 75%;
+    left: 28%;
+}
+
+.facebook:hover {
+    color: blue;
+    background: white;
+    position: absolute;
+    top: 74%;
+    left: 28%;
+}
+
+.google {
+    background: red;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+
+.google:hover {
+    color: red;
+    background: white;
+    position: absolute;
+    top: 74%;
+    left: 10%;
+}
+
+::placeholder {
+    font: 20px;
+    color: black;
+}

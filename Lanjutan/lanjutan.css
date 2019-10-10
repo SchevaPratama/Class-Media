@@ -1,0 +1,42 @@
+body {
+    background-image: url(clement-h-95YRwf6CNw8-unsplash.jpg);
+    background-size: cover;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: black;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+h3 {
+    font-family: monospace;
+    color: red;
+    font-size: 18px;
+    text-align: center;
+}
+
+.lanjutan {
+    text-align: center;
+    text-decoration: none;
+    background-color: orange;
+    margin-bottom: 20px;
+    width: 220px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 180px;
+    left: 550px;
+}
+
+.lanjutan:hover {
+    color: white;
+    background-color: grey;
+}

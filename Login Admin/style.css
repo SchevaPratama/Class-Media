@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-image: url(carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg);
+    background-size: cover;
+}
+
+.box {
+    width: 450px;
+    padding: 45px;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    transform: translate(-40%, -50%);
+    background: rgba(136, 130, 130, 0.22);
+    text-align: center;
+    border-radius: 45px;
+}
+
+.box h3 {
+    color: yellow;
+    text-decoration: underline;
+    text-transform: full-width;
+    font-style: 400;
+    font-family: serif;
+    font-size: 200%;
+}
+
+.box h2 {
+    color: white;
+    font-family: monospace;
+    font-size: 200%;
+}
+
+.box input[type="text"],
+.box input[type="Password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    font-family: cursive;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 10PX;
+    transition: 0.20s;
+}
+
+.box img {
+    width: 70px;
+    position: relative;
+    top: 45px;
+    left: 200px;
+
+}
+
+.box input[type="text"]:focus,
+.box input[type="Password"]:focus {
+    width: 280px;
+    border-radius: 50px;
+    border-color: white;
+}
+
+.box input[type="text"]:hover,
+.box input[type="Password"]:hover {
+    width: 280px;
+    border-radius: 50px;
+    border-color: white;
+}
+
+a {
+    text-decoration: none;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10Epx 10px;
+    width: 100px;
+    font-family: cursive;
+    font-size: 20px;
+    outline: none;
+    color: #030200;
+    border-radius: 5PX;
+    transition: 0.20s;
+    cursor: pointer;
+}
+
+a:hover {
+    background: white;
+}
